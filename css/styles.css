@@ -1,0 +1,260 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #333333;
+    line-height: 1.6;
+}
+
+
+header nav {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e1e8ed;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #1d4ed8; 
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: color 0.2s ease;
+}
+
+header nav ul li a:hover {
+    color: #1e40af;
+    text-decoration: underline;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.hero h1 {
+    font-size: 2.2rem;
+    color: #1e293b;
+    margin-bottom: 8px;
+}
+
+.hero p {
+    color: #64748b;
+    font-size: 1.1rem;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 20px;
+    flex-wrap: wrap;
+}
+
+.nav-card {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 30px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    border: 1px solid #e2e8f0;
+}
+
+.nav-card h3 {
+    margin-bottom: 15px;
+    color: #0f172a;
+    font-size: 1.3rem;
+}
+
+.nav-card p {
+    color: #64748b;
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+}
+
+.btn-link {
+    display: inline-block;
+    padding: 10px 22px;
+    background-color: #1d4ed8;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.btn-link:hover {
+    background-color: #1e40af;
+}
+
+
+.section-e2 {
+    max-width: 1050px;
+    margin: 40px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.section-e2 h2 {
+    font-size: 1.8rem;
+    color: #2a2a2a;
+    margin-bottom: 35px;
+    font-weight: 400;
+}
+
+.grid-e2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.card-e2 {
+    background: #ffffff;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    border: 1px solid #e5e7eb;
+}
+
+.card-e2 img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+.card-e2 .caption {
+    padding: 15px;
+    font-size: 0.95rem;
+    color: #4b5563;
+    font-weight: 500;
+}
+
+.card-coming-soon {
+    background-color: #f8fafc;
+    border: 2px dashed #cbd5e1;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 230px;
+}
+
+.icon-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+    background-color: #4338ca;
+    padding: 14px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+.icon-grid span {
+    width: 8px;
+    height: 8px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+
+.section-e3 {
+    max-width: 950px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+}
+
+.header-e3 {
+    text-align: left;
+    padding: 20px 20px 10px;
+}
+
+.header-e3 h2 {
+    font-size: 2rem;
+    color: #1e293b;
+    margin-bottom: 12px;
+}
+
+.header-e3 p {
+    color: #64748b;
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+}
+
+.grid-e3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+    padding: 30px 20px;
+}
+
+.item-e3 {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.item-e3 i {
+    font-size: 2.2rem;
+    color: #2563eb;
+    margin-top: 5px;
+    min-width: 40px;
+    text-align: center;
+}
+
+.item-e3-content h3 {
+    font-size: 1.25rem;
+    color: #1e293b;
+    margin-bottom: 10px;
+}
+
+.item-e3-content p {
+    color: #64748b;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+.btn-e3 {
+    display: inline-block;
+    padding: 8px 18px;
+    background-color: #1d4ed8;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.btn-e3:hover {
+    background-color: #1e40af;
+}
+
+@media (max-width: 768px) {
+    .grid-e2, .grid-e3 {
+        grid-template-columns: 1fr;
+    }
+}
